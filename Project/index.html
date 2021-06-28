@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<div class="container">
+    <div class="nav" id="nav">
+        <img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo3.jpg" alt="" class="logo">
+        <div class="nav__items">
+            <a href="" class="nav__item"><img src="https://via.placeholder.com/16" alt="" class="nav__item-img">Summary</a>
+            <a href="" class="nav__item"><img src="https://via.placeholder.com/16" alt=""
+                                              class="nav__item-img">Hours</a>
+            <a href="" class="nav__item nav__item--active"><img src="https://via.placeholder.com/16" alt=""
+                                                                class="nav__item-img">Projects</a>
+            <a href="" class="nav__item"><img src="https://via.placeholder.com/16" alt="" class="nav__item-img">Time
+                reports</a>
+            <a href="" class="nav__item"><img src="https://via.placeholder.com/16" alt="" class="nav__item-img">Confirmation</a>
+            <a href="" class="nav__item"><img src="https://via.placeholder.com/16" alt=""
+                                              class="nav__item-img">Mailer</a>
+            <a href="" class="nav__item"><img src="https://via.placeholder.com/16" alt="" class="nav__item-img">Compare</a>
+            <a href="" class="icon" onclick="openBurger()">
+
+            </a>
+        </div>
+        <a href="" class="nav__profile">
+            <img src="https://via.placeholder.com/44" alt="">
+        </a>
+    </div>
+    <hr>
+    <div class="filters">
+        <div class="filters__select">
+            <p>Dev</p>
+            <select name="Jenny">
+                <option selected value="">Jenny Wilson</option>
+            </select>
+        </div>
+        <div class="filters__select">
+            <p>Status</p>
+            <select name="">
+                <option selected value="">All Statuses</option>
+            </select>
+        </div>
+        <input class="filters__checkbox" type="checkbox"> <label for=""></label> <span>Show Efficiency</span>
+        <input class="filters__btn" value="Apply" type="submit">
+        <input class="filters__btn filters__btn--width" value="Reset Filters" type="submit">
+
+    </div>
+
+    <div class="card">
+        <div class="card__decoration"></div>
+        <p class="card__title">Project information</p>
+        <div class="card__content-title">
+            <ul>
+                <li>
+                    Project name
+                </li>
+                <li>
+                    Team lead
+                </li>
+                <li>
+                    Created
+                </li>
+                <li>
+                    Finished
+                </li>
+                <li>
+                    Categories
+                </li>
+                <li>
+                    Time
+                </li>
+                <li>
+                    Label
+                </li>
+                <li>
+                    Tag
+                </li>
+                <li>
+                    Status
+                </li>
+                <li>
+                    Team
+                </li>
+            </ul>
+        </div>
+        <div class="card__content-description">
+            <ul>
+                <li>
+                    Science & Information Platform
+                </li>
+                <li>
+                    Ralph Edwards
+                </li>
+                <li>
+                    25/06/2019
+                </li>
+                <li>
+                    30/06/2020
+                </li>
+                <li>
+                    CMS Production
+                </li>
+                <li>
+                    $
+                </li>
+                <li class="label">
+                    Hourly
+                </li>
+                <li class="border">
+                    Page Mockup
+                </li>
+                <li class="color-red">
+                    Non Completed
+                </li>
+                <li>
+                    Jane Cooper, Wade Warren, Esther Howard, Cameron <br> Williamson, Brooklyn Simmons, Leslie
+                    Alexander,
+                    Jenny <br> Wilson, Gur Hawkins, Robert Fox, Jacob Jones, Kristin <br> Watson, Cody Fisher, Savannah
+                    Nguen, Bessie
+                    Cooper, <br> Albert Flores, Ralph Edwards, Dianne Russel, Devon Lane,<br> Marvin McKinney, Jerome
+                    Bell,
+                    Courtney
+                    Henry, Theresa <br> Webb, Kathrin Murphu, Eleonora Pena, Floud Miles, Darrell
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="card card--project">
+        <div class="card__decoration"></div>
+        <p class="card__title">Project Time</p>
+        <div class="card__container-1">
+            <p class="card__subtitle">Total time (Hours)</p>
+            <ul class="card__list">
+                <li>Changes <p class="value">2067.26h</p></li>
+                <li>Origin <p class="value">1660.55h</p></li>
+                <ul class="card__sublist">
+                    <li>Programming <p class="value">2345.56h</p></li>
+                    <li>Markup <p class="value">27.18h</p></li>
+                    <li>Graphic Design <p class="value">34h</p></li>
+                    <li>Estimation <p class="value">678h</p></li>
+                    <li>Investigation <p class="value">80.83h</p></li>
+                    <li>Bug Fixing <p class="value">76h</p></li>
+                    <li>Quality Assurance <p class="value">80.83h</p></li>
+                    <li>Meetings <p class="value">5h</p></li>
+                    <li>Other <p class="value">8256.08h</p></li>
+                </ul>
+                <li>Sum <p class="value">15236.48h</p></li>
+            </ul>
+        </div>
+        <div class="card__container-2">
+            <p class="card__subtitle">Time (Hours) by Current Month (Sep)</p>
+            <ul class="card__list">
+                <li>Changes <p class="value">0h</p></li>
+                <li>Origin <p class="value">2067.26h</p></li>
+                <ul class="card__sublist">
+                    <li>Programming <p class="value">1660.55h</p></li>
+                </ul>
+                <li>Sum <p class="value">15236.48h</p></li>
+            </ul>
+        </div>
+        <div class="card__container-3">
+            <p class="card__subtitle">Estimations (Hours)</p>
+            <ul class="card__list">
+                <li>Changes <p class="value">0h</p></li>
+                <li>Origin <p class="value">2067.26h</p></li>
+                <li>Sum <p class="value">15236.48h</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card card--efficiency">
+        <div class="card__decoration card__decoration--size"></div>
+        <p class="card__title">Efficiency</p>
+        <div class="card__container-1">
+            <p class="card__subtitle">Total Efficiency</p>
+            <ul class="card__list card__list--width">
+                <li>Changes</li>
+                <li>Origin <span class="card__list-item--center">2345.04 h</span>
+                    <p class="value">100%</p></li>
+                <li class="card__list-item--no-underline">Average <span class="card__list-item--center">2345.04 h</span>
+                    <p class="value">100%</p></li>
+            </ul>
+        </div>
+        <div class="card__container-4">
+            <p class="card__subtitle">Efficiency by Current Month (Sep)</p>
+            <ul class="card__list card__list--width">
+                <li>Changes</li>
+                <li>Origin <span class="card__list-item--center">507.26h</span>
+                    <p class="value">100%</p></li>
+                <li class="card__list-item--no-underline">Average <span class="card__list-item--center">507.26h</span>
+                    <p class="value">100%</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="table">
+        <div class="table__header">
+            <ul>
+                <li>Task name &uarr;&darr;</li>
+                <li>Developer &uarr;&darr;</li>
+                <li>Work Type &uarr;&darr;</li>
+                <li>Status &uarr;&darr;</li>
+                <li>Estimation (h) &uarr;&darr;</li>
+                <li onclick="tableSort('Total_time')">Total time spent by All &uarr;&darr;</li>
+                <li onclick="tableSort('My_time')">My Time spent by Period (h) &uarr;&darr;</li>
+                <li onclick="tableSort('Efficiency')">Efficiency &uarr;&darr;</li>
+            </ul>
+        </div>
+        <div class="table__body">
+
+        </div>
+        <div class=" sum">
+            <div>Sum</div>
+            <div class="sum__results">
+                <div>2078h</div>
+                <div>1090h</div>
+                <div>100% (1090h)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pagination">
+        <div>Rows per page</div>
+        <div class="filters__select filters__select--width">
+            <select name="">
+                <option selected value="">10</option>
+            </select>
+        </div>
+        <div>1-10 of 20</div>
+        <div class="pagination__pages">
+            <div><</div>
+            <div onclick="paginationRender(this.innerHTML)">1</div>
+            <div onclick="paginationRender(this.innerHTML)">2</div>
+            <div>></div>
+        </div>
+    </div>
+
+    <div class="footer">2012-2020 © CMS Department of <a href="">NIX Solutions Ltd.</a></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
